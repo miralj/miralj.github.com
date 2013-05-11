@@ -3,39 +3,52 @@
     <title>
         MKLJ
     </title>
+    
+    <style>
+        h1{
+            color:#248AC9;
+            text-align:left;
+            font:40px arial,sans-serif;
+            background-color:#E3E3E3;
 
+        }
+        h1:hover{
+            color:#9ED3FF;
+        }
+        .description{
+            font:italic 8pt arial,sans-serif;
+        }
+        .links{
+            font: medium arial,sans-serif;
+        }
+        a{
+            color:#248AC9;
+            font-weight:bold;
+            text-decoration:none;
+        }
+        a:hover{
+            color:#9ED3FF;
+        }
+
+    </style>
 </head>
 
 <body>
+<div>
+<h1 id="title">MKLJ</h1>
+</div>
 
-    <div><canvas id="maincanvas" width="800" height="800"></canvas></div>
+<div>
+<p class="description">
+(This is the future home of the website belonging to Mira L-J.)
+</p>
 
-    <script>
-        var c=document.getElementById("maincanvas");
-        var ctx=c.getContext("2d");
-        ctx.font="80px Futura";
-        ctx.fillStyle = "#1C7AE6";
-        ctx.shadowColor = "black";
-        ctx.shadowOffsetX = 1;
-        ctx.shadowOffsetY = 1;
-        ctx.shadowBlur = 10;
-        ctx.translate(100,300);
-        ctx.rotate(-.5*Math.PI);
-        ctx.fillText("M K L J",0,0);     
-        ctx.rotate(.5*Math.PI);
-        ctx.font="25px Futura";
-        ctx.shadowBlur = 0;
-        ctx.shadowOffsetY = 0;
-        ctx.shadowOffsetX = 0;
-        ctx.moveTo(72,-157);
-        ctx.lineTo(192,-157);
-        ctx.lineWidth = 36;
-        ctx.stroke();
-        ctx.fillText("Go away. This isn't a real website yet.",75,-150);   
 
-    </script>
-    
+<p class="links">
+For now, here are some <a href="http://bit.ly/10A8Fae">COWS</a>.
+</p>
 
+</div>
 
 
 </body>
