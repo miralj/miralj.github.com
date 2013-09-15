@@ -1,8 +1,10 @@
+.singleImage-body {
+	width: 550px;
+}
 #title {
 	position: fixed;
 	top: 400px;
 	height: 40px;
-	width: 100%;
 	left: 420px;
 	font-size:12px;
 	font-family:"Courier New", Monospace;
