@@ -1,0 +1,21 @@
+#title {
+	position: fixed;
+	top: 200px;
+	height: 40px;
+	width: 100%;
+	left: 420px;
+	font-size: large;
+}
+
+#body {
+	margin-top: 50px;
+	overflow:auto;
+	margin-bottom: 50px;
+}
+
+#footer {
+	font-size:small;
+	bottom: 0px;
+	font-style:italic;
+}
+
