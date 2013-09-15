@@ -1,11 +1,18 @@
 #title {
 	position: fixed;
-	top: 200px;
+	top: 400px;
 	height: 40px;
 	width: 100%;
 	left: 420px;
-	font-size:20px;
+	font-size:12px;
 	font-family:"Courier New", Monospace;
+}
+
+#next {
+	font-family:"Courier New", Monospace;
+	font-size:30px;
+	left: 500px;
+	position: relative;
 }
 
 #body {
@@ -18,5 +25,30 @@
 	font-size:small;
 	bottom: 0px;
 	font-style:italic;
+	font-family:"Courier New", Monospace;
 }
+
+#hovertitles {
+	font-family:"Courier New", Monospace;
+	font-size:30px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+#thumbnails {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.thumb {
+	border: 2px solid white;
+}
+
+a{
+	text-decoration:none;
+}
+a:link {color:#69BEFA}
+a:visited {color:#4B85D6}
+a:hover {color:#FFD000}
+a:active {color:#FFAE00}
 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<link rel="stylesheet" type="text/css" href="optimismstyle.css">
+
+<script type="text/javascript">
+function displayTitle(var1,var2)
+{
+document.getElementById("hovertitles").innerHTML=var1;
+document.getElementById(var2).style.border="2px solid black";
+}
+
+function undisplayTitle(var1)
+{
+document.getElementById("hovertitles").innerHTML="OPTIMISM";
+document.getElementById(var1).style.border="2px solid white";
+}
+
+</script>
+
+</head>
+
+<body>
+
+
+
+<div id='thumbnails'>
+<img class='thumb' id='img1' onmouseover="displayTitle('And The Child Burst Into Tears','img1')" onmouseout="undisplayTitle('img1')" src="images/AndTheChildBurstIntoTears-thumb.jpg" alt="image">
+<img class='thumb' id='img2' onmouseover="displayTitle('Bounce','img2')" onmouseout="undisplayTitle('img2')" src="images/Bounce-thumb.jpg" alt="image">
+<img class='thumb' id='img3' onmouseover="displayTitle('Save The Best For Last','img3')" onmouseout="undisplayTitle('img3')" src="images/SaveTheBestForLast-thumb.jpg" alt="image">
+<img class='thumb' id='img4' onmouseover="displayTitle('Cheer Up, Breakdown','img4')" onmouseout="undisplayTitle('img4')" src="images/BreakDown-thumb.jpg" alt="image">
+<img class='thumb' id='img5' onmouseover="displayTitle('Escape','img5')" onmouseout="undisplayTitle('img5')" src="images/Escape-thumb.jpg" alt="image">
+<img class='thumb' id='img6' onmouseover="displayTitle('Ups and Downs','img6')" onmouseout="undisplayTitle('img6')" src="images/UpsAndDowns-thumb.jpg" alt="image">
+<img class='thumb' id='img7' onmouseover="displayTitle('More Than Half Full','img7')" onmouseout="undisplayTitle('img7')" src="images/MoreThanHalfFull-thumb.jpg" alt="image">
+<img class='thumb' id='img8' onmouseover="displayTitle('What\'s Mine Is Yours','img8')" onmouseout="undisplayTitle('img8')" src="images/WhatsMineIsYours-thumb.jpg" alt="image">
+<img class='thumb' id='img9' onmouseover="displayTitle('How You Fall','img9')" onmouseout="undisplayTitle('img9')" src="images/HowYouFall-thumb.jpg" alt="image">
+</div>
+
+<div id='hovertitles'>OPTIMISM</div>
+<div id='footer'>by MKLJ, 2010</div>
+<div id='next' style="left:0px;"><a href ="optimism1.html">>>>>>>></a></div>
+
+
+
+</body> 
