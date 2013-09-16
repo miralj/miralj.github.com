@@ -1,0 +1,74 @@
+body {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin-left: 30px;
+
+}
+
+#header {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+#nav {
+	margin-top: 10px;
+	text-decoration:none;
+	list-style-type:none;
+	padding:0;
+}
+
+#nav li {
+	color:#3E97D1;
+	display:inline;
+	float:left;
+	display:block;
+	width:230px;
+}
+
+#nav li:hover{color:#052F6D;}
+
+
+#body {
+	margin-top:70px;
+	height:600px;
+}
+
+
+#highlight-links {
+	text-decoration:none;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#highlight-links li {
+	margin-top:30px;
+	font-size:25px;
+	color:black;
+	display:block;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+#footer {
+	font-style:italic;
+	margin-top:40px;
+	margin-bottom:50px;
+}
+
+#name:hover {
+	color:#65A6D1;
+}
+
+#name {
+	font-style:normal;
+	color:#437DD4;
+}
+
+a {
+	text-decoration:none;
+	color:#3E97D1;
+}
+a:hover{color:#052F6D;}
+
