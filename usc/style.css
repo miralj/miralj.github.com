@@ -1,0 +1,98 @@
+table {
+	position: absolute;
+	left:0;
+	top:0;
+	height: 700px;
+}
+
+.photo {
+	height: 700px;
+	border: 2px solid black;
+}
+
+.photo-hz {
+	border: 2px solid black;
+	width: 750px;
+	margin-top:80px;
+}
+
+.text {
+	color: black;
+	top: 50px;
+	margin-left: 50px;
+	margin-right: 25px;
+	max-width: 450px;
+	font-family:courier;
+	text-align:right;
+}
+
+#next {
+	top:600px;
+	margin-left: 50px;
+	margin-right: 25px;
+	max-width: 450px;
+	text-align:right;
+	color: black;
+	font-family:courier;
+	font-size:25px;
+}
+
+a:link {
+	text-decoration:none;
+	color:black;
+}
+a:visited {color:black;}
+a:hover {color:purple;}
+a:active {color:black;}
+
+body {
+	background-color:white;
+	margin:auto;
+	width: 80%;
+	font-family:courier;
+	color:black;
+
+}
+
+#header {
+	position:absolute;
+	top:10px;
+	margin-left: 50px;
+	margin-right: 25px;
+	max-width: 450px;
+	color:black;
+	font-family:"Courier", courier;
+	font-size:30px;
+	text-align:right;
+	width: 80%;
+}
+
+
+.thumb {
+	max-height: 50px;
+	border: 2px solid black;
+	margin-bottom: 0px;
+}
+
+#thumbnails {
+	height: 50px;
+	width:500px;
+	position:absolute;
+	bottom:11px;
+	margin-left:15px;
+	margin-right:15px;
+	text-align:center;
+}
+
+
+
+
+#footer {
+
+	left:0px;
+	bottom:0px;
+	color:black;
+	font-family:courier;
+	font-size: 15px;
+}
+
