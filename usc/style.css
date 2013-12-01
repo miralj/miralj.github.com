@@ -26,6 +26,16 @@ table {
 	text-align:right;
 }
 
+.text-hz {
+	color: black;
+	top: 50px;
+	margin-left: 20px;
+	margin-right: 10px;
+	max-width: 216px;
+	font-family:courier;
+	text-align:right;
+}
+
 #next {
 	top:600px;
 	margin-left: 50px;
@@ -36,6 +46,7 @@ table {
 	font-family:courier;
 	font-size:25px;
 }
+
 
 a:link {
 	text-decoration:none;
