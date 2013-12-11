@@ -26,6 +26,50 @@ body {
 
 #nav li:hover{color:#052F6D;}
 
+.current {
+	font-weight:bold;
+	color:#052F6D;
+}
+
+#highlight-contents {
+	list-style-type:none;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+#highlight-contents li {
+	display:inline;
+	float:left;
+	display:block;
+	width:200px;
+}
+
+#work-contents {
+	list-style-type:none;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+
+#work-contents li {
+	display:inline;
+	float:left;
+	display:block;
+	width:200px;
+}
+
+
+#contact-contents {
+	list-style-type:none;
+	margin-left: 10px;
+	margin-top: 100px;
+}
+
+#contact-contents li {
+	display:inline;
+	float:left;
+	display:block;
+	width: 130px;
+}
 
 #body {
 	margin-top:70px;
