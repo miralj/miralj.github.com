@@ -6,8 +6,9 @@
 <style>
 body {
 	font-size:30px;
-	margin-top:45px;
-	margin-left:45px;
+	height: 200px;
+	width: 400px;
+	margin: 0 auto;
 }
 
 #invite {line-height:10%;}
@@ -18,7 +19,7 @@ body {
 
 #buttons { 
 	position:absolute;
-	top:300px;
+	top:250px;
 }
 </style>
 
@@ -78,8 +79,9 @@ document.getElementById("reasonsandbuttons").innerHTML="<div id='invite'><p>So c
 <div id="reasonsandbuttons">
 <div id="reasonstocelebrate"></div>
 <div id="buttons">
-<button id="askwhy" onclick="why()">WHY?</button>
-<button id="okaythen" style="display:none;" onclick="okay()">OKAY, I'M CONVINCED</button>
+<button style="height:30px;" id="askwhy" onclick="why()">WHY?</button>
+<br></br>
+<button style="height:30px;" id="okaythen" style="display:none;" onclick="okay()">OKAY, I'M CONVINCED</button>
 </div>
 </div>
 </body>
