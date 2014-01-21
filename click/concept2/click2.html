@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+<title>click when you feel like it</title>
+<meta name="Keywords" content="Mira,MKLJ,Miranda,Lippold-Johnson,Mira Lippold-Johnson,Miranda Lippold-Johnson,Photography,photography,harvard,brooklyn,video,film,filmmaker,new york,videography,screenwriting,screenwriter,digital media,new media" />
+<meta name="Description" content="Click-made music video." />
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script src="mediagroup.js"></script>
+<script>
+
+// play and pause button
+var syncvideo = document.getElementById("onehand");
+var playButton = document.getElementById("playButton");
+// Event listener for the play/pause button
+$("#playButton").click(function () {
+//	if (document.getElementById("onehand").paused == true) {
+	//play the video
+	document.getElementById("onehand").play();
+	
+	//make it say pause
+//	playButton.innerHTML = "Pause";
+//	}
+//	else {
+	//pause the video
+//	document.getElementById("onehand").pause();
+	
+	//make it say play
+//	playButton.innerHTML = "Play";
+//	}
+});
+
+// for click activation
+var myVideos = ['#onehand'];
+var onehand = ['#otherhand','#twohands','#arms'];
+var otherhand = ['#onehand','#twohands','#arms'];
+var twohands = ['#otherhand','#onehand','#arms'];
+var arms = ['#otherhand','#twohands','#onehand'];
+
+$(document).ready(function(){
+	$(document).click(function () {
+		//insert video switcher function call here
+		var rand = myVideos[Math.floor(Math.random() * myVideos.length)];
+		$("#welcome").hide();
+		$("video").hide();
+		$("#playButton").show();
+		$(rand).show();
+		switch (rand) {
+			case '#onehand':
+				myVideos = onehand;
+				break;
+			case '#otherhand':
+				myVideos = otherhand;
+				break;
+			case '#twohands':
+				myVideos = twohands;
+				break;
+			case '#arms':
+				myVideos = arms;
+				break;
+		}
+
+	});
+
+});
+
+$('#arms').bind('ended', function(){
+    // done playing
+    $("video").hide();
+    $("#welcome").html("The End.");
+    $("#welcome").show();
+});
+
+</script>
+</head>
+
+<body>
+
+
+
+<div id="welcome">
+instructions:<br />
+CLICK when you feel like it.
+</div>
+
+<div id="videoContainer">
+
+<video style="display:none" id="onehand" class="videos" mediagroup="sync">
+	<source src="onehand-withmusic.mp4" type="video/mp4">
+</video>
+
+<video style="display:none" id="otherhand" class="videos" mediagroup="sync">
+	<source src="otherhand-2.mp4" type="video/mp4">
+</video>
+
+<video style="display:none" id="twohands" class="videos" mediagroup="sync">
+	<source src="bothhands-2.mp4" type="video/mp4">
+</video>
+
+<video style="display:none" id="arms" class="videos" mediagroup="sync">
+	<source src="arms-2.mp4" type="video/mp4">
+</video>
+
+</div>
+<div>
+<button style="display:none" type="button" id="playButton">Play</button>
+</div>
+
+
+</body>
+
