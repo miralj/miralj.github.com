@@ -1,0 +1,49 @@
+#top {
+	max-width: 100%;
+}
+
+body {
+	font-family: courier;
+	max-width: 80%;
+}
+
+h1 {
+
+	font-size: extra-large;
+	font-style:normal;
+	display: inline;
+}
+
+#buy {
+	font-style:italic;
+	display:table;
+	display:inline;
+
+}
+
+
+#buy li {
+	display: table-cell;
+	margin: 5%;
+}
+
+#buy a {
+	display: inline;
+	text-decoration:none;
+}
+
+#buy img {
+	max-width: 25%;
+	vertical-align: middle;
+
+}
+
+p {
+	font-size: small;
+	max-width: 100%;
+}
+
+#footer {
+	position:relative;
+	margin-top: 10%;
+}
