@@ -2,11 +2,18 @@
 	max-width: 100%;
 	margin-top:3%;
 }
-
+html {
+	height: 100%;
+}
 body {
-	font-family: courier;
-	max-width: 80%;
+	height: 100%;
 	margin: 0 auto;
+	font-family: courier;
+}
+#main {
+	margin: 0 auto;
+	max-width: 80%;
+	min-height: 100%;
 }
 
 a {text-decoration:none;}
@@ -24,9 +31,7 @@ h1 {
 	display:inline;
 	margin-top: 10%;
 	margin-bottom: 10%;
-
 }
-
 
 #buy li {
 	display: table-cell;
@@ -52,12 +57,10 @@ p {
 	background: white;
 	bottom:0px;
 	text-align:center;
-	
 }
 
 #images {
-	position:absolute;
-	top:100%;
+	position:relative;
 	left:0;
 	background: black;
 }
