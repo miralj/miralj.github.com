@@ -15,11 +15,11 @@ function NameChanger(){
 	switch (countname)
 	{
 		case 0:
-			document.getElementById("name").innerHTML="Miranda K. Lippold-Johnson";
+			document.getElementById("name").innerHTML="Mira K. Lippold-Johnson";
 			countname=1;
 			break;
 		case 1:
-			document.getElementById("name").innerHTML="Miranda Johnson";
+			document.getElementById("name").innerHTML="MKLJ";
 			countname=2;
 			break;
 		case 2:
@@ -27,15 +27,16 @@ function NameChanger(){
 			countname=3;
 			break;			
 		case 3:
-			document.getElementById("name").innerHTML="MKLJ";
+
+			document.getElementById("name").innerHTML="Miranda Johnson";
 			countname=4;
 			break;
 		case 4:
-			document.getElementById("name").innerHTML="Mira L-J";
+			document.getElementById("name").innerHTML="Miranda K. Lippold-Johnson";
 			countname=5;
 			break;
 		case 5:
-			document.getElementById("name").innerHTML="Mira K. Lippold-Johnson";
+			document.getElementById("name").innerHTML="Mira LJ";
 			countname=0;
 			break;
 	}
@@ -44,6 +45,18 @@ function NameChanger(){
 
 
 </script>
+
+<!-- jquery for fades and animations --!>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#header").delay(300).fadeIn(900);
+	$("#subheader").delay(1100).fadeIn(900);
+	$("#content").delay(300).fadeIn(900);
+});
+
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -57,29 +70,64 @@ function NameChanger(){
 </head>
 
 <body>
-<div id="header">
+<section id="first">
+<div id="header" style="display:none">
 Hello, my name is 
-<i id="name" onclick="NameChanger()">Mira K. Lippold-Johnson</i>
+<i id="name" onclick="NameChanger()">Mira LJ</i>
 </div>
-<section>
-<ul id="nav">
-    <li><a href="highlight.html">this week's highlight</a></li>
-    <li><a href="work.html">about my work</a></li>
-    <li><a href="connect.html">get in touch</a></li>
-</ul>
+<div id="subheader" style="display:none">
+This is the home of a random assortment of my work.
+</div>
 </section>
 
-<section id="body">
+
+<section id="content" style="display:none">
+<div class="separator_black"></div>
+
+<div class="project" id="contact">
+	<div class="contacts"><a href="mailto:miralj@gmail.com"><img alt="email" height="50px" src="Email-icon.jpg"></a></div>
+	<div class="contacts"><a href="http://instagram.com/miralj" target="_blank"><img alt="instagram" height="50px" src="Instagram-Glyph.jpg"></a></div>
+	<div class="contacts"><a href="http://twitter.com/miralj" target="_blank"><img alt="twitter" height="50px" src="Twitter_logo_blue.jpg"></a></div>
+	<div class="contacts"><a href="https://www.facebook.com/miranda.LJ" target="_blank"><img alt="facebook" height="50px" src="FB-f-Logo__blue_100.png"></a></div>
+</div>
+
+<div class="project black"><div id="resume">if you want to, you can <a href="Resume_MirandaLippold-Johnson.pdf">download my resume</a></div></div>
+<div class="separator_white"></div>
+<div class="project">or check out the iPad app I used to manage at<br /><a href="https://itunes.apple.com/us/app/smithsonian-channel-for-ipad/id482096908?mt=8"><img style="max-width:30%" src="Smithsonian_Channel.jpg" alt="Smithsonian Channel"></a></div>
+<div class="separator_white"></div>
+
+<div class="separator_black" style="height:20px"></div>
+<div class="project black" id="spitefulbox"><div id="spiteful">or you can watch this video of a concert</div><div class="separator_black" style="height:20px"></div><iframe width="560" height="315" src="http://www.youtube.com/embed/Tmbx1q7YizI?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="separator_black" style="height:30px"></div>
+
+<div class="separator_white"></div>
+<div class="project">or maybe you're looking for cocktail recipes from the<a href="bonvivant/index.html"><img style="max-width:70%" src="bonvivant/bonvivant.png"></a></div>
+<div class="separator_white"></div>
+<div class="separator_black" style="height:20px"></div>
+<div class="project black">or you could netflix a documentary I worked on like<br /><a href="http://netflix.com/Movie/Photographic-Memory/70259464" style="font-style:italic;font-family:courier;">Photographic Memory by Ross McElwee</a></div>
+<div class="separator_black" style="height:20px"></div>
+<div class="separator_white"></div>
+<div class="project">and you can see my photo series on <a href="optimism/optimism.html">OPTIMISM</a></div>
+<div class="separator_white"></div>
+<div class="separator_black" style="height:15px"></div>
+<div class="project black">as well as <a href="http://youtu.be/tjcVmGleS-k">Miranda the Panda</a>, my first grade documentary</div>
+<div class="separator_black" style="height:15px"></div>
+<div class="separator_white"></div>
+<div class="project">you can also <a href="font/font.html">install</a> a <a href="font/font.html"><img id="font" src="fontcalledmira.png"></a></div>
+<div class="separator_white"></div>
+<div class="separator_black" style="height:20px"></div>
+<div class="project black" style="font-size:2vw;">or just send me an email at <a href="mailto:miralj@gmail.com">miralj@gmail.com</a></div>
+<div class="separator_black" style="height:20px"></div>
 
 
 
-
-
-
-
-</section>
 
 <div id="footer">This website, much like its creator, is a work in progress.</div>
+
+
+</section>
+
+
 
 
 

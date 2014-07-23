@@ -1,113 +1,80 @@
+html {
+	height:100%;
+}
 body {
+	height:100%;
+	text-align:center;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	margin-left: 30px;
+	margin:0;
+	max-width: 100%;
 
 }
 
 #header {
-	font-size: 30px;
-	margin-top: 50px;
+	font-size: 4.5vw;
+	margin-top:20%;
 }
 
-#nav {
-	margin-top: 10px;
-	text-decoration:none;
-	list-style-type:none;
-	padding:0;
-}
-
-#nav li {
-	color:#3E97D1;
-	display:inline;
-	float:left;
-	display:block;
-	width:230px;
-}
-
-#nav li:hover{color:#052F6D;}
-
-.current {
-	font-weight:bold;
-	color:#052F6D;
-}
-
-
-
-#highlight-contents {
-	list-style-type:none;
-	margin-left: 50px;
-	margin-top: 100px;
-	padding:0;
-}
-
-#highlight-contents li {
-	display:inline;
-	float:left;
-	display:block;
-	width:300px;
-}
-
-#highlight-contents2 {
-	list-style-type:none;
-	margin-left: 50px;
-	margin-top: 300px;
-	padding:0;
-}
-
-#highlight-contents2 li {
-	display:inline;
-	display:block;
-	float:left;
-	font-size:small;
-	width:150px;
-}
-
-#work-contents {
-	list-style-type:none;
-	margin-left: 50px;
-	margin-top: 100px;
-}
-
-#work-contents li {
-	display:inline;
-	float:left;
-	display:block;
-	width:200px;
-}
-
-
-#contact-contents {
-	list-style-type:none;
-	margin-left: 10px;
-	margin-top: 100px;
-}
-
-#contact-contents li {
-	display:inline;
-	float:left;
-	display:block;
-	width: 130px;
-}
-
-
-#body {
-	margin-top:70px;
-	height:600px;
-}
-
-#highlight-links {
-	text-decoration:none;
-	list-style-type:none;
+#first {
+	height:100%;
+	width:100%;
 	margin:0;
-	padding:0;
+	text-align:center;
+	position:fixed;
+
 }
 
-#highlight-links li {
-	margin-top:30px;
-	font-size:25px;
-	color:black;
-	display:block;
+#content {
+	position:relative;
+	top:100%;
+	width:100%;
+	margin:0 auto;
+	background:white;
 }
+
+.project{
+	font-size:3vw;
+	margin:0 auto;
+	min-height:25px;
+	display:table;
+	width:100%;
+}
+#font{
+	width:17%;
+}
+.separator_black {
+	height:10px;
+	background:black;
+}
+
+.separator_white {
+	height:30px;
+	background:white;
+}
+
+.black {
+	background:black;
+	color:white;
+}
+
+#contact{
+	width:100%;
+	margin:0 auto;
+	margin-top:10px;
+}
+.contacts {
+	display:inline;
+	margin:5%;
+	
+}
+
+#resume{
+	display:table-cell;
+	vertical-align:middle;
+	height:50px;
+}
+
+
 
 h1 {
 	font-size: 20px;
@@ -132,5 +99,6 @@ a {
 	text-decoration:none;
 	color:#3E97D1;
 }
-a:hover{color:#052F6D;}
+.black a:hover{color:white;}
+a:hover{color:black;}
 
