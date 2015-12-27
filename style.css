@@ -1,115 +1,98 @@
-html {
-	height:100%;
-}
-body {
-	height:100%;
-	text-align:center;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	margin:0;
-	max-width: 100%;
-
+@font-face {
+    font-family: Mira-Regular;
+    src: url(font/Mira-Regular.otf);
 }
 
-#header {
-	font-size: 4.5vw;
-	margin-top:20%;
+html { 
+	margin-top: 3%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:2%;
 }
 
-#first {
-	height:100%;
-	width:100%;
-	margin:0;
-	text-align:center;
-	position:fixed;
-
-}
-
-#content {
-	position:relative;
-	top:100%;
-	width:100%;
-	margin:0 auto;
-	background:white;
-}
-
-.project{
-	font-size:3vw;
-	margin:0 auto;
-	min-height:25px;
-	display:table;
-	width:100%;
-}
-#font{
-	width:17%;
-}
-.separator_black {
-	height:10px;
-	background:black;
-}
-
-.separator_white {
-	height:30px;
-	background:white;
-}
-
-.black {
-	background:black;
-	color:white;
-}
-
-#contact{
-	width:100%;
-	margin:0 auto;
-	margin-top:10px;
-}
-.contacts {
-	display:inline;
-	margin:5%;
-	
-}
-
-#resume{
-	display:table-cell;
-	vertical-align:middle;
-	height:50px;
-}
-
-.fader{
-	opacity:1;
-}
-
-h1 {
-	font-size: 20px;
-}
-
-#footer {
-	position:absolute;
-	font-style:italic;
-	height:60%;
-	text-align:center;
-	background:white;
-	width:100%;
-
-}
-
-.text{
-	margin-top:20px;
-	margin-bottom:20px;
-}
-
-#name:hover {
-	color:#65A6D1;
-}
-
-#name {
-	font-style:normal;
-	color:#437DD4;
-}
 
 a {
 	text-decoration:none;
-	color:#3E97D1;
+	color:inherit;
 }
-.black a:hover{color:white;}
-a:hover{color:black;}
 
+#nav {
+	margin-top:.3%;
+	font-size: 25px;
+}
+
+#nav a {
+	color:#1E824C;
+}
+
+#name {
+	font-family: Mira-Regular;
+	font-size: 70px;
+}
+
+#header {
+	margin-bottom:2%;
+}
+
+body {
+	font-family:'Suravaram', serif;
+	font-size: 20px;
+	margin:0;
+	line-height:1;
+
+}
+
+h2 {
+	font-size: 25px;
+	font-style: italic;
+	margin:0;
+	color: #256D4A;
+}
+
+h1 {
+	font-size: 35px;
+	margin:0;
+}
+
+h3 {
+	font-size: 20px;
+	margin:0;
+	font-style: italic;
+	color: #4B77BE;
+}
+
+p {
+	margin-top:.5%;
+}
+.project {
+	margin-bottom:2%;
+}
+.project p {
+	margin:0;
+}
+
+a .project:hover {
+	opacity:.7;
+}
+
+#about {
+	margin-bottom:2%;
+}
+
+#about h2 {
+	color:#4B77BE;
+}
+
+#footer {
+	margin-top: 5%;
+	margin-bottom:0;
+}
+
+#footer a {
+	color: #256D4A;
+}
+
+#lessheader {
+	font-family: Mira-Regular;
+	font-size: 40px;
+}

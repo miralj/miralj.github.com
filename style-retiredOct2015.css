@@ -1,0 +1,115 @@
+html {
+	height:100%;
+}
+body {
+	height:100%;
+	text-align:center;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin:0;
+	max-width: 100%;
+
+}
+
+#header {
+	font-size: 4.5vw;
+	margin-top:20%;
+}
+
+#first {
+	height:100%;
+	width:100%;
+	margin:0;
+	text-align:center;
+	position:fixed;
+
+}
+
+#content {
+	position:relative;
+	top:100%;
+	width:100%;
+	margin:0 auto;
+	background:white;
+}
+
+.project{
+	font-size:3vw;
+	margin:0 auto;
+	min-height:25px;
+	display:table;
+	width:100%;
+}
+#font{
+	width:17%;
+}
+.separator_black {
+	height:10px;
+	background:black;
+}
+
+.separator_white {
+	height:30px;
+	background:white;
+}
+
+.black {
+	background:black;
+	color:white;
+}
+
+#contact{
+	width:100%;
+	margin:0 auto;
+	margin-top:10px;
+}
+.contacts {
+	display:inline;
+	margin:5%;
+	
+}
+
+#resume{
+	display:table-cell;
+	vertical-align:middle;
+	height:50px;
+}
+
+.fader{
+	opacity:1;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+#footer {
+	position:absolute;
+	font-style:italic;
+	height:60%;
+	text-align:center;
+	background:white;
+	width:100%;
+
+}
+
+.text{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#name:hover {
+	color:#65A6D1;
+}
+
+#name {
+	font-style:normal;
+	color:#437DD4;
+}
+
+a {
+	text-decoration:none;
+	color:#3E97D1;
+}
+.black a:hover{color:white;}
+a:hover{color:black;}
+
