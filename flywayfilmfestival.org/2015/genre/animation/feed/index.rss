@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Animation | 2015 FFF</title>
+	<atom:link href="http://flywayfilmfestival.org/2015/genre/animation/feed/" rel="self" type="application/rss+xml" />
+	<link>http://flywayfilmfestival.org/2015</link>
+	<description>The Flyway Film Festival 2015 site</description>
+	<lastBuildDate>Wed, 21 Oct 2015 16:02:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.6</generator>
+<site xmlns="com-wordpress:feed-additions:1">97052071</site>	<item>
+		<title>Bottomless</title>
+		<link>http://flywayfilmfestival.org/2015/film/bottomless/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/bottomless/#respond</comments>
+		<pubDate>Sat, 26 Sep 2015 17:23:51 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=773</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/bottomless/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">773</post-id>	</item>
+		<item>
+		<title>Imagination</title>
+		<link>http://flywayfilmfestival.org/2015/film/imagination/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/imagination/#respond</comments>
+		<pubDate>Sat, 26 Sep 2015 17:17:46 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=770</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/imagination/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">770</post-id>	</item>
+		<item>
+		<title>It Gets Worse</title>
+		<link>http://flywayfilmfestival.org/2015/film/it-gets-worse/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/it-gets-worse/#respond</comments>
+		<pubDate>Sat, 26 Sep 2015 17:11:32 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=767</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/it-gets-worse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">767</post-id>	</item>
+		<item>
+		<title>Oh Noah</title>
+		<link>http://flywayfilmfestival.org/2015/film/oh-noah/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/oh-noah/#respond</comments>
+		<pubDate>Sat, 26 Sep 2015 17:03:53 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=764</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/oh-noah/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">764</post-id>	</item>
+		<item>
+		<title>Within</title>
+		<link>http://flywayfilmfestival.org/2015/film/within/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/within/#respond</comments>
+		<pubDate>Tue, 22 Sep 2015 14:20:15 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=737</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/within/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">737</post-id>	</item>
+		<item>
+		<title>When Marnie Was There</title>
+		<link>http://flywayfilmfestival.org/2015/film/when-marnie-was-there/</link>
+		<comments>http://flywayfilmfestival.org/2015/film/when-marnie-was-there/#respond</comments>
+		<pubDate>Mon, 21 Sep 2015 03:09:10 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+		
+		<guid isPermaLink="false">http://flywayfilmfestival.org/2015/?post_type=film&#038;p=634</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2015/film/when-marnie-was-there/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<post-id xmlns="com-wordpress:feed-additions:1">634</post-id>	</item>
+	</channel>
+</rss>

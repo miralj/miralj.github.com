@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>poster &#8211; 2011 FFF</title>
+	<atom:link href="http://flywayfilmfestival.org/2011/tag/poster/feed/" rel="self" type="application/rss+xml" />
+	<link>http://flywayfilmfestival.org/2011</link>
+	<description>The Best Indie Fest on Lake Pepin</description>
+	<lastBuildDate>Fri, 05 Sep 2014 00:02:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.6</generator>
+	<item>
+		<title>2011 Flyway Film Festival 2011 Poster</title>
+		<link>http://flywayfilmfestival.org/2011/flyway-film-festival-2011-poster/</link>
+		<comments>http://flywayfilmfestival.org/2011/flyway-film-festival-2011-poster/#respond</comments>
+		<pubDate>Thu, 07 Jul 2011 19:30:08 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Sliders]]></category>
+		<category><![CDATA[artwork]]></category>
+		<category><![CDATA[pelicans]]></category>
+		<category><![CDATA[poster]]></category>
+
+		<guid isPermaLink="false">http://flywayfilmfestival.org/?p=10388</guid>
+		<description><![CDATA[We are proud to debut the 2011 2011 Flyway Film Festival poster and theme, Film Takes Flight, with artwork by Gaylord Shanilec and design by Craig Varian. Head on over the Flyway Stuff page to get your very limited edition poster before they sell out! And if you like to be the first in line, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>We are proud to debut the 2011 2011 Flyway Film Festival poster and theme, <strong>Film Takes Flight</strong>, with artwork by Gaylord Shanilec and design by Craig Varian. Head on over the <a title="Flyway Festival Merch" href="http://flywayfilmfestival.org/2011/shop/flyway-stuff/">Flyway Stuff page</a> to get your very limited edition poster before they sell out! And if you like to be the first in line, <a title="Flyway 2011 Early Bird Tickets" href="http://flywayfilmfestival.ticketleap.com/early-bird-pass-sale-2011-flyway-film-festival/#/" target="_blank">Early Bird tickets</a> (no pun intended) are also now on sale!</p>
+<p>Check out <a title="Poster and Grant Ceremony" href="http://flywayfilmfestival.org/2011/portfolio/grant-and-poster-ceremony/">the image gallery</a> from the poster/grant event!</p>
+<p><a href="http://flywayfilmfestival.org/2011/wp-content/uploads/sites/5/2011/06/filmtakesflight2011poster.jpg"><img class="size-medium wp-image-10389 alignnone colorbox-10388" title="Flyway 2011 Poster" src="http://flywayfilmfestival.org/2011/wp-content/uploads/sites/5/2011/06/filmtakesflight2011poster-211x300.jpg" alt="Flyway 2011 Poster - Film Takes Flight" width="211" height="300" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2011/flyway-film-festival-2011-poster/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

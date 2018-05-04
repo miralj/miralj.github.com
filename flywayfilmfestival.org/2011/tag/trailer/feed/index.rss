@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>trailer &#8211; 2011 FFF</title>
+	<atom:link href="http://flywayfilmfestival.org/2011/tag/trailer/feed/" rel="self" type="application/rss+xml" />
+	<link>http://flywayfilmfestival.org/2011</link>
+	<description>The Best Indie Fest on Lake Pepin</description>
+	<lastBuildDate>Fri, 05 Sep 2014 00:02:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.6</generator>
+	<item>
+		<title>2011 Flyway Trailer Contest</title>
+		<link>http://flywayfilmfestival.org/2011/2011-flyway-trailer-contest/</link>
+		<comments>http://flywayfilmfestival.org/2011/2011-flyway-trailer-contest/#comments</comments>
+		<pubDate>Tue, 15 Mar 2011 15:30:42 +0000</pubDate>
+		<dc:creator><![CDATA[Rick]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[promo]]></category>
+		<category><![CDATA[trailer]]></category>
+
+		<guid isPermaLink="false">http://dev.flywayfilmfestival.org/?p=2412</guid>
+		<description><![CDATA[We are extremely happy to announce our 2011 Flyway Trailer Contest. Winner(s) will receive a check for $250 and a copy of Final Draft and Sony Vegas Pro 10! There are two trailer categories for consideration: 30-seconds in length 60-seconds in length Submissions can be made in either category or in both categories. Trailers may [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>We are extremely happy to announce our 2011 Flyway Trailer Contest. Winner(s) will receive a check for $250 and a copy of Final Draft and Sony Vegas Pro 10!</p>
+<p>There are two trailer categories for consideration:</p>
+<ul>
+<li>30-seconds in length</li>
+<li>60-seconds in length</li>
+</ul>
+<p>Submissions can be made in either category or in both categories.</p>
+<p>Trailers may be funny, serious or experimental. We encourage you to include elements which promote independent film, filmmakers and Flyway’s location on Lake Pepin and the Upper Mississippi River. We leave it to you as to how to interpret those elements. Deadline is July 31st, 2011. Download your <a title="Flyway 2011 Trailer Contest Guidelines and Form" href="http://flywayfilmfestival.org/2011/media/fff-2011-trailercomp.pdf" target="_blank">entry form and guidelines here</a>.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://flywayfilmfestival.org/2011/2011-flyway-trailer-contest/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

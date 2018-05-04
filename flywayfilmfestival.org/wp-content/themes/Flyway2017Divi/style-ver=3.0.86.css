@@ -1,0 +1,68 @@
+/*
+Theme Name: Flyway 2017 Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 2.3
+Description: Divi child theme for Flyway
+Author: Jeremy Wilker
+Author URI: http://www.elegantthemes.com
+Template: Divi
+*/
+
+
+@import url("../Divi/style.css");
+
+
+@media only screen and ( min-width:981px ) {
+    /* Set the slider height */
+    .et_pb_slider, .et_pb_slider .et_pb_container { 
+        height: 425px !important; 
+    }
+    .et_pb_slider, .et_pb_slider .et_pb_slide { 
+        max-height: 425px; 
+    }
+    .et_pb_slider .et_pb_slide_description { 
+        position: relative; 
+        top: 25%; 
+        padding-top: 0 !important; 
+        padding-bottom:0 !important; 
+        height:auto !important; 
+    }
+}
+
+
+
+
+/* SUBSCRIBE FORM */
+
+.et_pb_widget form p input {
+font-size: 14px;
+border: none !important;
+padding: 14px 4% !important;
+font-size: 16px;
+color: #666;
+background-color: #fff;
+width: 92%;
+font-weight: 400;
+-moz-border-radius: 3px !important;
+-webkit-border-radius: 3px !important;
+border-radius: 3px !important;
+}
+
+
+
+/* SOCIAL SHARING */
+
+div.sharedaddy, #content div.sharedaddy, #main div.sharedaddy {
+}
+
+div.sharedaddy h3.sd-title {
+display: none !important;
+float: left;
+margin: 0 1em 1em 0 !important;
+}
+
+@media all {
+div.sharedaddy h3.sd-title:before {
+border-top: none !important;
+}
+}
