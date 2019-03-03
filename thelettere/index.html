@@ -6,8 +6,50 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>THE LETTER E</title>
         <meta name="description" content="A short movie musical about love, meaninglessness, and a fourteen year old girl who loves the letter E.">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="../style2019.css">
+        <link rel="stylesheet" href="letterestyle.css">
+   
+        
+        
+        <!-- STYLE FOR THIS PAGE ONLY -->
+<style type="text/css" media="screen">
+    
+    
+
+ /* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+    nav ul li{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+    nav ul li a{
+        height:25px;
+        padding:0;
+    }
+    nav ul li:hover > ul{display: none;}
+    
+    
+    
+    body{margin-top:30vh;}
+    h1{font-size:14vw;}
+    
+h3::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -200px; 
+  height: 200px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+    
+    
+    }
+</style>
+    
     </head>
+    
+
+    
+    
     
     <body>
 
@@ -15,29 +57,21 @@
 
         <h2>A short movie musical about love, meaninglessness, and a fourteen year old girl who loves the letter E.</h2>
         
-        <nav> 
-            <a href="#watch" class="goto">watch</a>
+        <div id="letterenav"> 
+            <a href="#gowatch" class="goto">watch</a>
             <a href="#people" class="goto">people</a>
             <a href="#screenings" class="goto">screenings</a>
             <a href="#trailer" class="goto">trailer</a>
             <a href="#contact" class="goto">contact</a>
-        </nav>
+        </div>
 
         
-        <div id="watch">
+        <div id="watch"><span id="gowatch"></span>
         <h3>WATCH THE FULL SHORT FILM NOW!</h3>
-        <iframe src="https://player.vimeo.com/video/166427083" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/166427083?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             
         </div>
-        
-    <!--- <div id="estills">
-            <img src="eagle.png" width="14.28%">
-            <img src="egg.png" width="14.28%">
-            <img src="egypt.png" width="14.28%">
-            <img src="eleanor.png" width="14.28%">
-            <img src="elephant.png" width="14.28%">
-            <img src="eyes.png" width="14.28%">
-        </div> --->
+    
         <div>
             <img src="skeptical.jpg" width="25%">
             <img src="lastscenesitting2.jpg" width="25%">
@@ -56,7 +90,7 @@
             Starring: Alix King, Joel Ridge Hawkingson, Molly Moynihan, <br />
             Jules Shelby, Tasha Anslyn and Jordan Elsass
             </p>
-            <p id="imdb"><a href="http://www.imdb.com/title/tt5814336/"><img src="IMDB.png" height="30px"></a></p>
+            <p id="imdb"><a href="http://www.imdb.com/title/tt5814336/"><img src="IMDB.png" height="75px"></a></p>
         </div>
         
 
@@ -84,8 +118,37 @@
         email us at theletteremovie@gmail.com <br />
             <a href="http://www.fb.com/theletteremovie">follow us on facebook</a>
         
-        
+<div id="estills">
+            <div class="eimg"><img src="eagle.png" width="100%"></div>
+            <div class="eimg"><img src="egg.png" width="100%"></div>
+            <div class="eimg"><img src="egypt.png" width="100%"></div>
+            <div class="eimg"><img src="eleanor.png" width="100%"></div>
+            <div class="eimg"><img src="elephant.png" width="100%"></div>
+            <div class="eimg"><img src="eyes.png" width="100%"></div>
+    
         </div>
+        </div>
+        
+        
+
+
+
     </body>
-</html>
+    <!-- navigation -->
+<nav role='navigation'>
+  <ul>
+       <li><a href="../index.html">About</a></li>
+    <li><a href="../director.html">Director</a>
+      <ul>
+        <li><a style="font-style:italic;" href="../badthings/index.html">Bad Things</a></li>
+        <li><a style="font-style:italic;" href="../thelettere/index.html">The Letter E</a></li>
+        <li><a style="font-style:italic;" href="../belair.html">The Bel Air Motel</a></li>
+        <li><a style="font-style:italic;" href="../ginnys.html">Ginny's</a></li>
+        <li><a href="../morebymira.html">More</a></li>
+      </ul>
+    </li>
+    <li><a href="../otherwork.html">Other Work</a></li>
+    <li><a href="../contact.html">Contact</a></li>
+  </ul>
+</nav>  
 </html>
