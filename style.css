@@ -3,96 +3,236 @@
     src: url(font/Mira-Regular.otf);
 }
 
-html { 
-	margin-top: 3%;
-	margin-left:5%;
-	margin-right:5%;
-	margin-bottom:2%;
+.bgtitle{
+    position: relative;
+    text-align: center;
+    color: white;
+
 }
 
-
-a {
-	text-decoration:none;
-	color:inherit;
-}
-
-#nav {
-	margin-top:.3%;
-	font-size: 25px;
-}
-
-#nav a {
-	color:#1E824C;
-}
-
-#name {
-	font-family: Mira-Regular;
-	font-size: 70px;
-}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    /* height:100%;*/
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }  
 
 #header {
-	margin-bottom:2%;
-}
+    position:absolute;
+    top: 25%;
+    left: 15%;
 
-body {
-	font-family:'Suravaram', serif;
-	font-size: 20px;
-	margin:0;
-	line-height:1;
+    text-align: left;
 
 }
-
-h2 {
-	font-size: 25px;
-	font-style: italic;
-	margin:0;
-	color: #256D4A;
+a{text-decoration:none;}
+a:link{
+    color:rgb(43, 153, 226);
+}
+a:visited{
+    color:rgb(117, 143, 166);
+}
+a:hover{
+    color:rgb(68, 92, 48);
 }
 
-h1 {
-	font-size: 35px;
-	margin:0;
+
+
+/* navigation bar */
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    text-align:center;
+    width: 100%;
+
 }
 
-h3 {
-	font-size: 20px;
-	margin:0;
-	font-style: italic;
-	color: #4B77BE;
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
-p {
-	margin-top:.5%;
-}
-.project {
-	margin-bottom:2%;
-}
-.project p {
-	margin:0;
+.topnav a:hover{
+    color: black;
 }
 
-a .project:hover {
-	opacity:.7;
+.bottomnav {
+    overflow: hidden;
+    margin-top:auto;
+    bottom:0;
+    text-align:center;
+    width: 100%;
+
+}
+.bottomnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.bottomnav a:hover{
+    color: rgb(99, 151, 224);
 }
 
-#about {
-	margin-bottom:2%;
+
+
+
+
+h1{
+    font-family: Mira-Regular;
+    font-size: 7vw;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+h3{
+    font-family: Mira-Regular;
+    font-size: 50px;
+    text-align:center;
+}
+h4{
+    font-size:25px;
 }
 
-#about h2 {
-	color:#4B77BE;
+
+#bio{
+    display:inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
 }
 
-#footer {
-	margin-top: 5%;
-	margin-bottom:0;
+.pictures{
+    padding: 15px;
+    display:inline-block;
+    max-width:30%;
+    min-width:200px;
+
 }
 
-#footer a {
-	color: #256D4A;
+.paragraph{
+    padding:15px;
+    min-width: 400px;
+    max-width:60%;
+    display:inline;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
 }
 
-#lessheader {
-	font-family: Mira-Regular;
-	font-size: 40px;
+.filmtitle{
+    padding:15px;
+    width: 220px;
+    display:inline;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+.directingwork{
+    display:inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:left;
+    margin-left:10%;
+}
+
+.editingwork{
+    display:inline-block;
+    display: flex;
+    align-items:baseline;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-left:10%;
+}
+
+
+
+#reel{
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DELETE BELOW? */
+#directing{
+    transition: 1s;
+}
+
+#directing:hover {
+    opacity:50%;
+}
+
+#editing {
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+  /* container */
+.responsive-two-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-two-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-columns > * {
+        width:50%;
+    }
 }
