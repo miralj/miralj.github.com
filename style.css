@@ -116,43 +116,7 @@ h4{
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:center;
-}
-
-
-.pictures{
-    padding: 15px;
-    display:inline-block;
-    max-width:30%;
-    min-width:200px;
-
-}
-
-.paragraph{
-    padding:15px;
-    min-width: 400px;
-    max-width:60%;
-    display:inline;
-    float:left;
-    padding-bottom:0px;
-    padding-top:0px;
-}
-
-.paragraphbio{
-    padding:15px;
-    max-width:60%;
-    display:inline;
-    float:left;
-    padding-bottom:0px;
-    padding-top:0px;
-}
-
-.filmtitle{
-    padding:15px;
-    width: 220px;
-    display:inline;
-    float:left;
-    padding-bottom:0px;
-    padding-top:0px;
+    padding-top: 15px;
 }
 
 .directingwork{
@@ -174,6 +138,44 @@ h4{
     justify-content:center;
     margin-left:10%;
 }
+.pictures{
+    padding: 15px;
+    display:inline-block;
+    max-width:30%;
+    min-width:200px;
+
+}
+
+.paragraph{
+    padding:15px;
+    max-width:60%;
+    display:inline;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+.paragraphedit{
+    padding:15px;
+    max-width:60%;
+    min-width:375px;
+    display:inline;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
+}
+
+.filmtitle{
+    padding:15px;
+    width: 220px;
+    display:inline;
+    float:left;
+    padding-bottom:0px;
+    padding-top:0px;
+    text-align:left;
+}
+
+
 
 
 
